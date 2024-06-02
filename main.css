@@ -1,0 +1,245 @@
+*{
+    margin:0%;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color:white;
+    scroll-behavior: smooth;
+}
+
+/* Start of Header */
+
+header{
+   background-color:black;
+}
+
+nav ul a, header{
+    padding: 40px;
+}
+
+.name{
+    font-size: 24px;
+}
+
+span{
+    color: orangered;
+}
+
+.logo{
+    border-radius: 50%;
+    width: 80px;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+nav, nav ul{
+    display:flex;
+}
+
+a, nav ul{
+    list-style: none;
+}
+
+.contact-button{
+    background-color: orangered;
+    border-radius: 20px;
+    padding: 15px;
+}
+.contact-button:hover{
+    background-color: black;
+    border: solid 1px orangered;
+}
+
+
+/* End of Header */
+
+
+/* Start of Intro */
+
+.intro{
+    background-color: rgb(0 0 0);
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    height: 100vh;
+}
+
+.left{
+    width: 1000px;
+}
+
+
+.top h1{
+    font-size: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.top p{
+    color:lightpink;
+    font-size: 20px;
+}
+
+.right{
+    width: 600px;
+}
+
+.right img{
+    width: 520px;
+    border-radius: 20px;
+    filter: drop-shadow(2px 2px 12px white);
+}
+
+/* End of Intro */
+
+
+/* Start of About Me */
+#about-me{
+    height: 100vh; 
+    background-color: rgb(0 0 0 /88%);
+    padding-top: 40px;
+}
+
+.about-me-sections{
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-me-title {
+
+    font-size: 60px;
+    text-align: center;
+}
+
+.about-me-section-one{
+    width: 500px;
+    padding: 40px;
+}
+
+.about-me-section-one p{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.about-me-section-two{
+    width: 500px;
+}
+.about-me-section-two img{
+    border-radius: 20px;
+    filter: drop-shadow(2px 2px 12px rgb(0, 0, 0));
+    width: 520px;
+}
+/* End of About Me */
+
+#what-ive-done{
+    height: 100vh; 
+    background-color: rgb(0 0 0 /96%);
+    padding-top: 40px;
+}
+
+
+.what-ive-done-sections{
+    padding-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.what-ive-done-title {
+
+    font-size: 60px;
+    text-align: center;
+}
+
+.what-ive-done-section-one{
+    width: 700px;
+    padding: 70px;
+}
+
+.what-ive-done-section-one img{
+    width: 700px;
+}
+
+.what-ive-done-section-one p{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.what-ive-done-section-two{
+    width: 700px;
+    padding: 40px;
+}
+.what-ive-done-section-two img{
+    width: 700px;
+}
+
+.Github-Projects-Title{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.yt-text{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+}
+.yt-text a{
+    background-color: orangered;
+    border-radius: 20px;
+    padding: 15px;
+}
+.yt-text a:hover{
+    background-color: black;
+    border: solid 1px orangered;
+}
+
+.passwd-text{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.passwd-text a{
+    background-color: orangered;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.passwd-text a:hover{
+    background-color: black;
+    border: solid 1px orangered;
+}
+
+
+
+/* Use Keyframes*/
+
+/* End Keyframes */
+
+footer{
+    background-color: rgb(0 0 0 /88%);
+    padding: 39px;
+}
+
+
+.links{
+    display: flex;
+   justify-content: center;
+}
+.links a{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.links a:hover{
+    color: grey;
+}
